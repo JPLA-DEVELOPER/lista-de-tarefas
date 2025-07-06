@@ -8,7 +8,7 @@
 }
 
 body {
-  background-image: url("../img/background3.jpg");
+  background-image: url("../img/background-img.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -16,8 +16,9 @@ body {
 
 button {
   background-color: #fdfdfd;
-  color: #102f5e;
+  color: #ebbc57;
   border: 2px solid #102f5e;
+  border-radius: 5px;
   padding: 0.3rem 0.6rem;
   font-size: 1rem;
   cursor: pointer;
@@ -57,7 +58,7 @@ select {
   background-color: #fdfdfd;
   padding: 1.5rem;
   border-radius: 15px;
-  height: 400px;
+  min-height: 400px;
 }
 
 .todo-container header {
@@ -151,7 +152,8 @@ select {
 }
 
 .done {
-  background: #395169;
+  background: #0c6933;
+  border-radius: 5px;
 }
 
 .done h3 {
@@ -159,7 +161,6 @@ select {
   text-decoration: line-through;
   font-style: italic;
 }
-
 
 #footer {
     text-align: center;
